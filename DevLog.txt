@@ -10,5 +10,6 @@
     2. conda environment 'DeepBind' renewed. <- conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 
 3.9.2022
-    1. Some error on the reproduction found! : local variable 'out' referenced before assignment -> solved
-    2. Processing multiple Transcription Factors
+    1. Some error on the reproduction found! : local variable 'out' referenced before assignment -> resolved
+    2. Processing multiple Transcription Factors (1/2 : loading multiple datasets)
+    3. code clean up 
