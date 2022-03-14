@@ -13,3 +13,8 @@
     1. Some error on the reproduction found! : local variable 'out' referenced before assignment -> resolved
     2. Processing multiple Transcription Factors (1/2 : loading multiple datasets)
     3. code clean up 
+
+3.14.2022
+    1. Code error resolved
+    2. Code clean up
+    3. sequence logo from pwm (ppm) implemented
