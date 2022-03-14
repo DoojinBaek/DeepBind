@@ -1,0 +1,6 @@
+TF Number TF Number 1 - AUC Training : 0
+TF Number 1 - AUC Test : 0
+------------------------------------------------------------
+TF Number 1 - AUC Training : 0
+TF Number 1 - AUC Test : 0
+------------------------------------------------------------

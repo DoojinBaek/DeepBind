@@ -70,7 +70,6 @@ class ConvNet(nn.Module):
     def forward_pass(self, x, mask=None, use_mask=False):
         conv = F.conv1d(x, self.wConv, bias = self.wRect, stride = 1, padding=0)
         rect = conv.clamp(min=0) # -> rectification
-        # global out # ???? 
         maxPool, _ = torch.max(rect, dim=2)
         if self.poolType == 'maxavg':
             avgPool = torch.mean(rect, dim=2)
@@ -138,8 +137,8 @@ class ConvNet_test(nn.Module):
         self.sigmaNeu=sigmaNeu
         self.wHidden=torch.randn(2*nummotif,32).to(device)
         self.wHiddenBias=torch.randn(32).to(device)
+
         if neuType=='nohidden':
-            
             if poolType=='maxavg':
                 self.wNeu=torch.randn(2*nummotif,1).to(device)
             else:
@@ -169,24 +168,20 @@ class ConvNet_test(nn.Module):
 
         self.wNeu.requires_grad=True
         self.wNeuBias.requires_grad=True
-        
 
         self.beta1=beta1
         self.beta2=beta2
         self.beta3=beta3
-        
-
     
     def divide_two_tensors(self,x):
         l=torch.unbind(x)
-
         list1=[l[2*i] for i in range(int(x.shape[0]/2))]
         list2=[l[2*i+1] for i in range(int(x.shape[0]/2))]
         x1=torch.stack(list1,0)
         x2=torch.stack(list2,0)
         return x1,x2
+
     def forward_pass(self,x,mask=None,use_mask=False):
-        
         conv=F.conv1d(x, self.wConv, bias=self.wRect, stride=1, padding=0)
         rect=conv.clamp(min=0)
         maxPool, _ = torch.max(rect, dim=2)

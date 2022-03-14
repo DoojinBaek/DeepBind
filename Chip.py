@@ -7,6 +7,10 @@ from torch.utils.data import Dataset, DataLoader
 from utils import seq2pad, dinuc_shuffle, complement, reverse_complement, datasets, logsampler, sqrtsampler
 
 class Chip():
+    '''
+    Chip class takes a filename as an input\n
+    openFile() returns the corresponding train,valid sets
+    '''
     def __init__(self, filename, motiflen=24, reverse_complement_mode = False, ):
         self.file = filename
         self.motiflen = motiflen
@@ -62,6 +66,9 @@ class Chip_test():
         return test_dataset
 
 class chipseq_dataset(Dataset):
+    '''
+    To use DataLodaer() function, This class defines __len__ & __getitem__
+    '''
     def __init__(self, xy = None):
         self.x_data = np.asarray([element[0] for element in xy], dtype=np.float32)
         self.y_data = np.asarray([element[1] for element in xy], dtype=np.float32)
@@ -76,6 +83,9 @@ class chipseq_dataset(Dataset):
         return self.len
 
 def data_loader(train1, valid1, train2, valid2, train3, valid3, all_data, batch_size, reverse_mode):
+    '''
+    returns train, valid, and all dataloader
+    '''
     train_data_1=chipseq_dataset(train1)
     train_data_2=chipseq_dataset(train2)
     train_data_3=chipseq_dataset(train3)

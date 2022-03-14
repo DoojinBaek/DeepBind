@@ -40,6 +40,15 @@ def reverse_complement(sequence):
 # datasets
 
 def datasets(path):
+    '''
+    Input : path to the datasets
+
+    Output : list of dataset names 
+
+        dataset_names[0] for list of AC.seq.gz datasets
+
+        dataset_names[1] for list of B.seq.gz datasets
+    '''
     path = './data/encode/'
     files = os.listdir(path)
 
