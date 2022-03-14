@@ -18,3 +18,4 @@
     1. Code error resolved
     2. Code clean up
     3. sequence logo from pwm (ppm) implemented
+    4. sequence logo from model
