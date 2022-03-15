@@ -1,5 +1,6 @@
 # DeepBind
 DeepBind Reproduction
 
-* Data From : https://github.com/jisraeli/DeepBind/tree/master/data/
-* Reference Code : https://github.com/MedChaabane/DeepBind-with-PyTorch
+Dataset : Chip-seq -> data/encode/
+TF Binding Prediction : Binding_Prediction.ipynb
+Sequence Logo Plotting : seq_logo_from_model.ipynb

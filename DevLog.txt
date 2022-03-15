@@ -19,3 +19,7 @@
     2. Code clean up
     3. sequence logo from pwm (ppm) implemented
     4. sequence logo from model
+
+3.15.2022
+    1. sequence logo from model implemented
+    2. Code cleanup
