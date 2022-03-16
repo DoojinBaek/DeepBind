@@ -23,3 +23,8 @@
 3.15.2022
     1. sequence logo from model implemented
     2. Code cleanup
+
+3.16.2022
+    1. test on different datasets
+    2. created sequence logos
+        * idea) what if we use the information value of motif detector on the training phase? : use filters with high information value (... the highest value is greater than 1.0..?)
