@@ -1,8 +1,10 @@
 # DeepBind
 
-This repository is for DeepBind reproduction using Pytorch.<br>
-Please note that this reproduction is designed for only Chip-seq datasets.<br>
-You can check the DeepBind Papaer on <a href="https://www.nature.com/articles/nbt.3300">here</a>, the corresponding supplementary nots on <a href="https://static-content.springer.com/esm/art%3A10.1038%2Fnbt.3300/MediaObjects/41587_2015_BFnbt3300_MOESM51_ESM.pdf">here</a>, and the original code with tensorflow 1.x on <a href="https://github.com/jisraeli/DeepBind">here</a>.<br>
+* This repository is for DeepBind reproduction using Pytorch.<br>
+
+* Please note that this reproduction is designed for only Chip-seq datasets.<br>
+
+* You can check the DeepBind Papaer on <a href="https://www.nature.com/articles/nbt.3300">here</a>, the corresponding supplementary nots on <a href="https://static-content.springer.com/esm/art%3A10.1038%2Fnbt.3300/MediaObjects/41587_2015_BFnbt3300_MOESM51_ESM.pdf">here</a>, and the original code with tensorflow 1.x on <a href="https://github.com/jisraeli/DeepBind">here</a>.<br>
 
 # Preparations
 
@@ -29,11 +31,11 @@ using this code, you can create sequence logos for specific TF model you trained
 
 # TF Binding Prediction AUC Results
 
-You can check the trainig and testing results on <a href="results/">here</a>.<br>
+* You can check the trainig and testing results on <a href="results/">here</a>.<br>
 
 # Sequence Logo
 
-You can check the sequence logos created by using the trained models on <a href="Logo/Image">here</a>.<br>
+* You can check the sequence logos created by using the trained models on <a href="Logo/Image">here</a>.<br>
 
 <hr>
-*Reference Code : https://github.com/MedChaabane/DeepBind-with-PyTorch
+* Reference Code : https://github.com/MedChaabane/DeepBind-with-PyTorch
