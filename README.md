@@ -38,4 +38,5 @@ using this code, you can create sequence logos for specific TF model you trained
 * You can check the sequence logos created by using the trained models on <a href="Logo/Image">here</a>.<br>
 
 <hr>
+
 * Reference Code : https://github.com/MedChaabane/DeepBind-with-PyTorch
