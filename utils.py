@@ -1,79 +1,209 @@
 import os
-import numpy as np
+import csv
+import gzip
+import math
+import torch
 import random
-import math 
+import numpy as np
+from torch.utils.data import Dataset, DataLoader
 
-bases = 'ACGT' # DNA bases
+DNAbases='ACGT' #DNA bases
 
-# only supporting DNA bases
-def seq2pad(sequence, motiflen):
-    rows = len(sequence) + 2*motiflen - 2
-    S = np.empty([rows, 4])
-    base = bases
+def seqtopad(seq,motif_len):
+    rows=len(seq)+2*motif_len-2
+    S=np.empty([rows,4])
+    base= DNAbases 
     for i in range(rows):
         for j in range(4):
-            if i-motiflen+1<len(sequence) and sequence[i-motiflen+1] == 'N' or i<motiflen-1 or i>len(sequence)+motiflen-2:
-                S[i,j] = np.float32(0.25)
-            elif sequence[i-motiflen+1] == base[j]:
-                S[i,j] = np.float32(1)
+            if i-motif_len+1<len(seq) and seq[i-motif_len+1]=='N' or i<motif_len-1 or i>len(seq)+motif_len-2:
+                S[i,j]=np.float32(0.25)
+            elif seq[i-motif_len+1]==base[j]:
+                S[i,j]=np.float32(1)
             else:
-                S[i,j] = np.float32(0)
+                S[i,j]=np.float32(0)
     return np.transpose(S)
 
-def dinuc_shuffle(sequence):
-    b = [sequence[i:i+2] for i in range(0, len(sequence), 2)]
+def dinuc_shuffling(seq):
+    b=[seq[i:i+2] for i in range(0, len(seq), 2)]
     random.shuffle(b)
-    d = ''.join([str(x) for x in b])
+    d=''.join([str(x) for x in b])
     return d
 
-def complement(sequence):
+def complement(seq):
     complement = {'A': 'T', 'C': 'G', 'G': 'C', 'T': 'A', 'N': 'N'}
-    complement_sequence = [complement[base] for base in sequence]
-    return complement_sequence
+    complement_seq = [complement[nt] for nt in seq] # nt stands for nucleotide
+    return complement_seq
+  
+def reverse_complement(seq):
+    seq = list(seq)
+    seq.reverse()
+    return ''.join(complement(seq))
 
-def reverse_complement(sequence):
-    sequence = list(sequence)
-    sequence.reverse()
-    return ''.join(complement(sequence))
-
+def logsampler(a,b):
+        x=np.random.uniform(low=0,high=1)
+        y=10**((math.log10(b)-math.log10(a))*x + math.log10(a))
+        return y
+    
+def sqrtsampler(a,b):
+        
+        x=np.random.uniform(low=0,high=1)
+        y=(b-a)*math.sqrt(x)+a
+        return y
 
 # datasets
 
-def datasets(path):
+def datasets(file_path):
     '''
     Input : path to the datasets
 
     Output : list of dataset names 
 
-        dataset_names[0] for list of AC.seq.gz datasets
+        dataset_names[i][0] for list of AC.seq.gz datasets
 
-        dataset_names[1] for list of B.seq.gz datasets
+        dataset_names[i][1] for list of B.seq.gz datasets
     '''
-    path = './data/encode/'
+    path = file_path
     files = os.listdir(path)
 
-    dataset_names = [[], []]
+    train = []
+    test = []
+    dataset_names = []
 
     for file in files:
-        if file.endswith("B.seq.gz"):
-            dataset_names[1].append(path+file)
-        elif file.endswith("AC.seq.gz"):
-            dataset_names[0].append(path+file)
+        if file.endswith("AC.seq.gz"):
+            train.append(path+file)
+        elif file.endswith("B.seq.gz"):
+            test.append(path+file)
 
-    dataset_names[0].sort()
-    dataset_names[1].sort()
+    train.sort()
+    test.sort()
 
-    if(len(dataset_names[0]) != len(dataset_names[1])):
+    if(len(train) != len(test)):
         raise Exception("Dataset Corrputed. Please Download The Dataset Again")
+
+    for i in range(len(train)):
+        dataset_names.extend([[train[i], test[i]]])
 
     return dataset_names
 
-def logsampler(a,b):
-    x = np.random.uniform(low = 0, high = 1)
-    y = 10**((math.log10(b)-math.log10(a))*x + math.log10(a))
-    return y
+class Chip():
+    def __init__(self,filename,motif_len=24,reverse_complemet_mode=False):
+        self.file = filename
+        self.motif_len = motif_len
+        self.reverse_complemet_mode=reverse_complemet_mode
+            
+    def openFile(self):
+        train_dataset=[]
+        with gzip.open(self.file, 'rt') as data:
+            next(data)
+            reader = csv.reader(data,delimiter='\t')
+            if not self.reverse_complemet_mode:
+              for row in reader:
+                      train_dataset.append([seqtopad(row[2],self.motif_len),[1]])
+                      train_dataset.append([seqtopad(dinuc_shuffling(row[2]),self.motif_len),[0]])
+            else:
+              for row in reader:
+                      train_dataset.append([seqtopad(row[2],self.motif_len),[1]])
+                      train_dataset.append([seqtopad(reverse_complement(row[2]),self.motif_len),[1]])
+                      train_dataset.append([seqtopad(dinuc_shuffling(row[2]),self.motif_len),[0]])
+                      train_dataset.append([seqtopad(dinuc_shuffling(reverse_complement(row[2])),self.motif_len),[0]])
 
-def sqrtsampler(a,b):
-    x = np.random.uniform(low = 0, high = 1)
-    y = (b-a)*math.sqrt(x) + a
-    return y
+
+        size=int(len(train_dataset)/3)
+
+        valid1 = train_dataset[:size]
+        valid2 = train_dataset[size:2*size]
+        valid3 = train_dataset[2*size:]
+
+        train1 = valid2 + valid3
+        train2 = valid1 + valid3
+        train3 = valid1 + valid2
+
+        return train1, valid1, train2, valid2, train3, valid3, train_dataset
+
+class chipseq_dataset(Dataset):
+    def __init__(self,xy=None):
+        self.x_data=np.asarray([el[0] for el in xy],dtype=np.float32)
+        self.y_data =np.asarray([el[1] for el in xy ],dtype=np.float32)
+        self.x_data = torch.from_numpy(self.x_data)
+        self.y_data = torch.from_numpy(self.y_data)
+        self.len=len(self.x_data)
+      
+    def __getitem__(self, index):
+        return self.x_data[index], self.y_data[index]
+
+    def __len__(self):
+        return self.len
+
+def dataset_loader(path, batch_size = 64, reverse_mode = False):
+
+    chipseq=Chip(path)
+
+    train1, valid1, train2, valid2, train3, valid3, all=chipseq.openFile()
+
+    train1_dataset=chipseq_dataset(train1)
+    train2_dataset=chipseq_dataset(train2)
+    train3_dataset=chipseq_dataset(train3)
+    valid1_dataset=chipseq_dataset(valid1)
+    valid2_dataset=chipseq_dataset(valid2)
+    valid3_dataset=chipseq_dataset(valid3)
+    all_dataset=chipseq_dataset(all)
+
+    batchSize=batch_size
+
+    if reverse_mode:
+        train_loader1 = DataLoader(dataset=train1_dataset,batch_size=batchSize,shuffle=False)
+        train_loader2 = DataLoader(dataset=train2_dataset,batch_size=batchSize,shuffle=False)
+        train_loader3 = DataLoader(dataset=train3_dataset,batch_size=batchSize,shuffle=False)
+        valid_loader1 = DataLoader(dataset=valid1_dataset,batch_size=batchSize,shuffle=False)
+        valid_loader2 = DataLoader(dataset=valid2_dataset,batch_size=batchSize,shuffle=False)
+        valid_loader3 = DataLoader(dataset=valid3_dataset,batch_size=batchSize,shuffle=False)
+        all_loader=DataLoader(dataset=all_dataset,batch_size=batchSize,shuffle=False)
+    else:
+        train_loader1 = DataLoader(dataset=train1_dataset,batch_size=batchSize,shuffle=True)
+        train_loader2 = DataLoader(dataset=train2_dataset,batch_size=batchSize,shuffle=True)
+        train_loader3 = DataLoader(dataset=train3_dataset,batch_size=batchSize,shuffle=True)
+        valid_loader1 = DataLoader(dataset=valid1_dataset,batch_size=batchSize,shuffle=False)
+        valid_loader2 = DataLoader(dataset=valid2_dataset,batch_size=batchSize,shuffle=False)
+        valid_loader3 = DataLoader(dataset=valid3_dataset,batch_size=batchSize,shuffle=False)
+        all_loader=DataLoader(dataset=all_dataset,batch_size=batchSize,shuffle=False)
+    
+    train_dataloader = [train_loader1,train_loader2,train_loader3]
+    valid_dataloader = [valid_loader1,valid_loader2,valid_loader3]
+    all_dataloader = all_loader
+
+    return train_dataloader, valid_dataloader, all_dataloader
+
+###############
+
+class Chip_test():
+    def __init__(self,filename,motif_len,reverse_complemet_mode=False):
+        self.file = filename
+        self.motif_len = motif_len
+        self.reverse_complemet_mode=reverse_complemet_mode
+            
+    def openFile(self):
+        test_dataset=[]
+        with gzip.open(self.file, 'rt') as data:
+            next(data)
+            reader = csv.reader(data,delimiter='\t')
+            if not self.reverse_complemet_mode:
+              for row in reader:
+                      test_dataset.append([seqtopad(row[2],self.motif_len),[int(row[3])]])
+            else:
+              for row in reader:
+                      test_dataset.append([seqtopad(row[2],self.motif_len),[int(row[3])]])
+                      test_dataset.append([seqtopad(reverse_complement(row[2]),self.motif_len),[int(row[3])]])
+            
+        return test_dataset
+
+def test_dataset_loader(filepath, motif_len):
+    chipseq_test=Chip_test(filepath, motif_len)
+    test_data=chipseq_test.openFile()
+
+    test_dataset=chipseq_dataset(test_data)
+    batchSize=test_dataset.__len__() # at once
+
+    test_loader = DataLoader(dataset=test_dataset,batch_size=batchSize,shuffle=False)
+
+    return test_loader
