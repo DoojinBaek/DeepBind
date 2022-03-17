@@ -1,3 +1,9 @@
+# DeepBind
+
+This repository is for DeepBind reproduction using Pytorch.<br>
+Please note that this reproduction is designed for only Chip-seq datasets.<br>
+You can check the DeepBind Papaer on <a href="https://www.nature.com/articles/nbt.3300">here</a>, the corresponding supplementary nots on <a href="https://static-content.springer.com/esm/art%3A10.1038%2Fnbt.3300/MediaObjects/41587_2015_BFnbt3300_MOESM51_ESM.pdf">here</a>, and the original code with tensorflow 1.x on <a href="https://github.com/jisraeli/DeepBind">here</a>.<br>
+
 # Preparations
 
 1. Dependencies<br>
@@ -8,9 +14,8 @@ Create virtual environment DeepBind using following commands<br>
 You can get the required datsets on<br>
 https://github.com/jisraeli/DeepBind/tree/master/data/
 
-<hr>
-
 # How to run the code
+
 1. TF_Binding_Predcition.ipynb<br>
 
 2. TF_Binding_Prediction.py<br>
@@ -22,14 +27,12 @@ You can choose datasets among <br>
 3. Logo/seq_logo_from_model.ipynb
 using this code, you can create sequence logos for specific TF model you trained
 
-<hr>
-
 # TF Binding Prediction AUC Results
+
 You can check the trainig and testing results on <a href="results/">here</a>.<br>
 
-<hr>
-
 # Sequence Logo
+
 You can check the sequence logos created by using the trained models on <a href="Logo/Image">here</a>.<br>
 
 <hr>
