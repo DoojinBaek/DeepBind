@@ -33,7 +33,7 @@ def main():
     reverse_mode=False
     num_grid_search = 5 # too small
     num_training_model = 5
-    learning_rate = 0.001
+    
     TFs2idx = {'ARID3A' : 0, 'CTCFL' : 1, 'ELK1' : 2, 'FOXA1' : 3, 'GABPA' : 4, 'MYC' : 5, 'REST' : 6, 'SP1' : 7, 'USF1' : 8, 'ZBTB7A' : 9}
     TFidx = [TFs2idx[TF] for TF in TFs]
     print('Corresponding Indices : ', end = '')
@@ -72,7 +72,7 @@ def main():
             random_pool=random.choice(pool_List)
             neuType_list=['hidden','nohidden']
             random_neuType=random.choice(neuType_list)
-            dropoutList=[0.5,0.75,1.0] 
+            dropoutList=[0.25,0.5,0.75] 
             dropprob=random.choice(dropoutList)
             learning_rate=logsampler(0.0005,0.05)
             momentum_rate=sqrtsampler(0.95,0.99)  
@@ -161,7 +161,7 @@ def main():
                     best_beta1=model.beta1
                     best_beta2=model.beta2
                     best_beta3=model.beta3
-                    at_grid = grid
+                    at_grid = grid+1
 
         # Save The Best Hyperparameters
 

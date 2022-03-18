@@ -165,7 +165,6 @@ class ConvNet_test(nn.Module):
   
             self.wHidden.requires_grad=True
             self.wHiddenBias.requires_grad=True
-            #wHiddenBias=tf.Variable(tf.truncated_normal([32,1],mean=0,stddev=sigmaNeu)) #hidden bias for everything
 
         self.wNeu.requires_grad=True
         self.wNeuBias.requires_grad=True

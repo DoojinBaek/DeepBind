@@ -174,8 +174,6 @@ def dataset_loader(path, batch_size = 64, reverse_mode = False):
 
     return train_dataloader, valid_dataloader, all_dataloader
 
-###############
-
 class Chip_test():
     def __init__(self,filename,motif_len,reverse_complemet_mode=False):
         self.file = filename
