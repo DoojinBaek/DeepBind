@@ -1,0 +1,576 @@
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.71073	AUC Test : 0.77205	Elapsed Time : 0:10:26.447487
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.55587	AUC Test : 0.53716	Elapsed Time : 0:21:12.598061
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.66639	AUC Test : 0.56739	Elapsed Time : 0:32:18.091933
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.52735	AUC Test : 0.52186	Elapsed Time : 0:43:09.391256
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.91532	AUC Test : 0.96616	Elapsed Time : 0:54:16.545007
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.57925	AUC Test : 0.57583	Elapsed Time : 1:05:09.330473
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.90295	AUC Test : 0.95678	Elapsed Time : 1:16:16.953627
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.59779	AUC Test : 0.52757	Elapsed Time : 1:27:11.173136
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.9428	AUC Test : 0.95992	Elapsed Time : 1:38:17.915056
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.63535	AUC Test : 0.60807	Elapsed Time : 1:49:11.588291
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.93398	AUC Test : 0.96524	Elapsed Time : 2:00:18.250757
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.73378	AUC Test : 0.79878	Elapsed Time : 2:11:13.903051
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.82019	AUC Test : 0.6978	Elapsed Time : 2:22:19.591622
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.56894	AUC Test : 0.56402	Elapsed Time : 2:33:13.313620
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.76664	AUC Test : 0.75593	Elapsed Time : 2:44:18.948731
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.56983	AUC Test : 0.5647	Elapsed Time : 2:55:12.884969
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.93277	AUC Test : 0.95752	Elapsed Time : 3:06:17.194935
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.64778	AUC Test : 0.65648	Elapsed Time : 3:17:09.462949
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.93504	AUC Test : 0.97189	Elapsed Time : 3:28:13.402872
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.69973	AUC Test : 0.70591	Elapsed Time : 3:39:05.529402
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.94931	AUC Test : 0.95667	Elapsed Time : 3:50:09.231945
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.8234	AUC Test : 0.86464	Elapsed Time : 4:01:00.845012
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.95354	AUC Test : 0.95937	Elapsed Time : 4:12:04.149005
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.84488	AUC Test : 0.91008	Elapsed Time : 4:22:55.307461
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.88331	AUC Test : 0.95956	Elapsed Time : 4:33:58.592615
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.59589	AUC Test : 0.53482	Elapsed Time : 4:44:47.929420
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.88189	AUC Test : 0.93541	Elapsed Time : 4:55:49.009441
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.58644	AUC Test : 0.59819	Elapsed Time : 5:06:37.909913
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.94205	AUC Test : 0.962	Elapsed Time : 5:17:38.410738
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.74768	AUC Test : 0.82999	Elapsed Time : 5:28:28.717937
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.95402	AUC Test : 0.96178	Elapsed Time : 5:39:30.204868
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.85685	AUC Test : 0.92901	Elapsed Time : 5:50:19.745740
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.95216	AUC Test : 0.94866	Elapsed Time : 6:01:20.549715
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.87732	AUC Test : 0.93385	Elapsed Time : 6:12:10.526624
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.96269	AUC Test : 0.95613	Elapsed Time : 6:23:10.471925
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.87077	AUC Test : 0.93373	Elapsed Time : 6:33:56.383000
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.71008	AUC Test : 0.59201	Elapsed Time : 6:44:17.009838
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.53239	AUC Test : 0.5409	Elapsed Time : 6:54:26.696314
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.66064	AUC Test : 0.59452	Elapsed Time : 7:04:41.846175
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.52563	AUC Test : 0.48188	Elapsed Time : 7:14:47.350697
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.87488	AUC Test : 0.79679	Elapsed Time : 7:25:00.504735
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.60565	AUC Test : 0.59319	Elapsed Time : 7:35:07.499113
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.87012	AUC Test : 0.87572	Elapsed Time : 7:45:25.653030
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.60496	AUC Test : 0.60447	Elapsed Time : 7:55:36.165565
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.90594	AUC Test : 0.96279	Elapsed Time : 8:05:54.627089
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.69807	AUC Test : 0.64252	Elapsed Time : 8:16:05.100262
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.90329	AUC Test : 0.97335	Elapsed Time : 8:26:23.341298
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.66281	AUC Test : 0.56567	Elapsed Time : 8:36:34.255486
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.82321	AUC Test : 0.90114	Elapsed Time : 8:46:52.074893
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.55366	AUC Test : 0.53748	Elapsed Time : 8:57:02.573480
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.73305	AUC Test : 0.69577	Elapsed Time : 9:07:19.973410
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.56364	AUC Test : 0.53609	Elapsed Time : 9:17:30.661229
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.90999	AUC Test : 0.96377	Elapsed Time : 9:27:48.234249
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.70072	AUC Test : 0.69864	Elapsed Time : 9:37:59.155224
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.89814	AUC Test : 0.96306	Elapsed Time : 9:48:16.502198
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.70626	AUC Test : 0.60099	Elapsed Time : 9:58:27.332705
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.91265	AUC Test : 0.96798	Elapsed Time : 10:08:44.652991
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.80132	AUC Test : 0.84666	Elapsed Time : 10:18:55.875971
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.92102	AUC Test : 0.97244	Elapsed Time : 10:29:12.766678
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.79261	AUC Test : 0.65031	Elapsed Time : 10:39:23.993124
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.85969	AUC Test : 0.92755	Elapsed Time : 10:49:40.865893
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.58205	AUC Test : 0.59414	Elapsed Time : 10:59:51.144735
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.88456	AUC Test : 0.88371	Elapsed Time : 11:10:08.472363
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.5553	AUC Test : 0.56392	Elapsed Time : 11:20:19.130289
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.91875	AUC Test : 0.96453	Elapsed Time : 11:30:36.809421
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.75775	AUC Test : 0.68422	Elapsed Time : 11:40:48.374661
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.91836	AUC Test : 0.96841	Elapsed Time : 11:51:06.462201
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.81836	AUC Test : 0.74207	Elapsed Time : 12:01:16.570387
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.9255	AUC Test : 0.96951	Elapsed Time : 12:11:34.803672
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.8678	AUC Test : 0.94653	Elapsed Time : 12:21:46.041492
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.93189	AUC Test : 0.97301	Elapsed Time : 12:32:04.496152
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.87314	AUC Test : 0.70736	Elapsed Time : 12:42:19.481138
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.72829	AUC Test : 0.61586	Elapsed Time : 12:52:57.592311
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.53583	AUC Test : 0.51315	Elapsed Time : 13:03:28.427337
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.66366	AUC Test : 0.6609	Elapsed Time : 13:14:08.069414
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.56388	AUC Test : 0.52248	Elapsed Time : 13:24:40.995877
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.90374	AUC Test : 0.91303	Elapsed Time : 13:35:20.440019
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.59905	AUC Test : 0.55662	Elapsed Time : 13:45:53.544356
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.89683	AUC Test : 0.95366	Elapsed Time : 13:56:34.291462
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.64742	AUC Test : 0.58738	Elapsed Time : 14:07:10.509803
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.93578	AUC Test : 0.95524	Elapsed Time : 14:17:50.541716
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.68959	AUC Test : 0.7117	Elapsed Time : 14:28:26.411654
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.93811	AUC Test : 0.96478	Elapsed Time : 14:39:07.730910
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.69367	AUC Test : 0.69132	Elapsed Time : 14:49:43.792632
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.82545	AUC Test : 0.86193	Elapsed Time : 15:00:24.160109
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.55983	AUC Test : 0.55634	Elapsed Time : 15:11:00.344304
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.80678	AUC Test : 0.87438	Elapsed Time : 15:21:41.844562
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.54976	AUC Test : 0.52849	Elapsed Time : 15:32:17.320573
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.93953	AUC Test : 0.95605	Elapsed Time : 15:42:58.343878
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.75682	AUC Test : 0.63304	Elapsed Time : 15:53:33.456212
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.93451	AUC Test : 0.96622	Elapsed Time : 16:04:15.511257
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.76371	AUC Test : 0.6064	Elapsed Time : 16:14:50.118915
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.95543	AUC Test : 0.95799	Elapsed Time : 16:25:32.154179
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.77141	AUC Test : 0.82878	Elapsed Time : 16:36:06.732547
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.95127	AUC Test : 0.95893	Elapsed Time : 16:46:48.734707
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.79199	AUC Test : 0.83498	Elapsed Time : 16:57:23.849801
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.87812	AUC Test : 0.93258	Elapsed Time : 17:08:05.347012
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.58198	AUC Test : 0.53701	Elapsed Time : 17:18:41.560878
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.88906	AUC Test : 0.94928	Elapsed Time : 17:29:22.740875
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.60127	AUC Test : 0.53442	Elapsed Time : 17:39:58.387625
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.94347	AUC Test : 0.95427	Elapsed Time : 17:50:39.424695
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.76129	AUC Test : 0.76017	Elapsed Time : 18:01:15.279120
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.95196	AUC Test : 0.9618	Elapsed Time : 18:11:55.577255
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.79397	AUC Test : 0.78808	Elapsed Time : 18:22:31.098319
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.95077	AUC Test : 0.95748	Elapsed Time : 18:33:10.425286
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.88558	AUC Test : 0.9548	Elapsed Time : 18:43:46.917102
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.95767	AUC Test : 0.95184	Elapsed Time : 18:54:26.942791
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.88133	AUC Test : 0.94827	Elapsed Time : 19:04:54.345449
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.66979	AUC Test : 0.6018	Elapsed Time : 19:15:02.048098
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.53631	AUC Test : 0.49105	Elapsed Time : 19:25:03.249075
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.65053	AUC Test : 0.57035	Elapsed Time : 19:35:06.796186
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.51926	AUC Test : 0.50685	Elapsed Time : 19:45:04.721137
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.88141	AUC Test : 0.95208	Elapsed Time : 19:55:05.627865
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.59124	AUC Test : 0.53141	Elapsed Time : 20:05:01.113964
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.879	AUC Test : 0.95302	Elapsed Time : 20:15:01.730423
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.62876	AUC Test : 0.58494	Elapsed Time : 20:24:57.503896
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.88814	AUC Test : 0.96008	Elapsed Time : 20:34:58.113061
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.62751	AUC Test : 0.63372	Elapsed Time : 20:44:53.572845
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.89783	AUC Test : 0.95773	Elapsed Time : 20:54:52.618390
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.64923	AUC Test : 0.64854	Elapsed Time : 21:04:45.118561
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.79837	AUC Test : 0.61575	Elapsed Time : 21:14:43.342727
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.5545	AUC Test : 0.48689	Elapsed Time : 21:24:36.604600
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.82939	AUC Test : 0.88465	Elapsed Time : 21:34:33.325578
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.56066	AUC Test : 0.53137	Elapsed Time : 21:44:26.231358
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.9113	AUC Test : 0.97158	Elapsed Time : 21:54:23.265987
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.71824	AUC Test : 0.69259	Elapsed Time : 22:04:15.975555
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.90484	AUC Test : 0.97414	Elapsed Time : 22:14:13.870741
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.71782	AUC Test : 0.68894	Elapsed Time : 22:24:06.914089
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.92564	AUC Test : 0.97358	Elapsed Time : 22:34:04.231214
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.78178	AUC Test : 0.78909	Elapsed Time : 22:43:57.347778
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.92425	AUC Test : 0.97366	Elapsed Time : 22:53:54.353588
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.77252	AUC Test : 0.82559	Elapsed Time : 23:03:47.298992
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.88313	AUC Test : 0.90709	Elapsed Time : 23:13:45.831837
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.6002	AUC Test : 0.5237	Elapsed Time : 23:23:39.067448
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.87261	AUC Test : 0.87866	Elapsed Time : 23:33:37.133308
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.62318	AUC Test : 0.579	Elapsed Time : 23:43:29.960413
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.92203	AUC Test : 0.97695	Elapsed Time : 23:53:27.806798
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.79284	AUC Test : 0.77632	Elapsed Time : 1 day, 0:03:20.901279
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.91949	AUC Test : 0.96741	Elapsed Time : 1 day, 0:13:19.552208
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.7417	AUC Test : 0.67475	Elapsed Time : 1 day, 0:23:12.242854
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.93429	AUC Test : 0.97006	Elapsed Time : 1 day, 0:33:10.316434
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.87691	AUC Test : 0.87493	Elapsed Time : 1 day, 0:43:03.317746
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.93199	AUC Test : 0.9735	Elapsed Time : 1 day, 0:52:56.803848
+---------------------------------------------------------------------------------------------------------
+TF : GABPA_GM12878_GABP_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.88079	AUC Test : 0.87044	Elapsed Time : 1 day, 1:00:48.705020

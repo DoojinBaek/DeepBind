@@ -1,0 +1,576 @@
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.72841	AUC Test : 0.74997	Elapsed Time : 0:11:51.886968
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.53153	AUC Test : 0.49469	Elapsed Time : 0:23:39.827793
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.71	AUC Test : 0.64383	Elapsed Time : 0:35:45.905320
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.54003	AUC Test : 0.50958	Elapsed Time : 0:47:39.082931
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.9464	AUC Test : 0.90625	Elapsed Time : 0:59:47.044693
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.64773	AUC Test : 0.52322	Elapsed Time : 1:11:44.489198
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.93816	AUC Test : 0.92332	Elapsed Time : 1:23:51.341898
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.59558	AUC Test : 0.5623	Elapsed Time : 1:35:49.648215
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.95989	AUC Test : 0.93455	Elapsed Time : 1:47:53.312551
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.69623	AUC Test : 0.63165	Elapsed Time : 1:59:51.811309
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.96229	AUC Test : 0.92743	Elapsed Time : 2:11:55.250294
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.72402	AUC Test : 0.66174	Elapsed Time : 2:23:54.631648
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.85546	AUC Test : 0.88844	Elapsed Time : 2:35:58.632064
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.53451	AUC Test : 0.55653	Elapsed Time : 2:47:56.305111
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.85157	AUC Test : 0.72716	Elapsed Time : 3:00:00.702076
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.54101	AUC Test : 0.53149	Elapsed Time : 3:11:56.564702
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.96161	AUC Test : 0.94449	Elapsed Time : 3:24:01.684421
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.73083	AUC Test : 0.56052	Elapsed Time : 3:35:54.384676
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.95709	AUC Test : 0.93287	Elapsed Time : 3:48:00.003182
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.7181	AUC Test : 0.60219	Elapsed Time : 3:59:52.074396
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.96844	AUC Test : 0.94509	Elapsed Time : 4:11:55.780137
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.81706	AUC Test : 0.69297	Elapsed Time : 4:23:47.765330
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.96472	AUC Test : 0.94857	Elapsed Time : 4:35:51.646365
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.83217	AUC Test : 0.61353	Elapsed Time : 4:47:41.972580
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.92976	AUC Test : 0.90142	Elapsed Time : 4:59:44.027802
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.58189	AUC Test : 0.57611	Elapsed Time : 5:11:33.883934
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.93012	AUC Test : 0.83977	Elapsed Time : 5:23:34.406692
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.57457	AUC Test : 0.56517	Elapsed Time : 5:35:27.524253
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.96587	AUC Test : 0.93969	Elapsed Time : 5:47:27.749869
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.82641	AUC Test : 0.64433	Elapsed Time : 5:59:20.788476
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.96299	AUC Test : 0.95177	Elapsed Time : 6:11:18.992471
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.78942	AUC Test : 0.69751	Elapsed Time : 6:23:11.700060
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.96527	AUC Test : 0.95568	Elapsed Time : 6:35:06.619723
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.91786	AUC Test : 0.92655	Elapsed Time : 6:46:37.384380
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.96798	AUC Test : 0.95679	Elapsed Time : 6:58:15.897047
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.91156	AUC Test : 0.78953	Elapsed Time : 7:09:41.715712
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.71028	AUC Test : 0.63303	Elapsed Time : 7:20:52.645970
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.55798	AUC Test : 0.48906	Elapsed Time : 7:31:54.323577
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.67345	AUC Test : 0.55374	Elapsed Time : 7:43:10.590504
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.56506	AUC Test : 0.51362	Elapsed Time : 7:54:16.978320
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.91437	AUC Test : 0.95652	Elapsed Time : 8:05:33.122207
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.59419	AUC Test : 0.52842	Elapsed Time : 8:16:41.004529
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.88671	AUC Test : 0.84888	Elapsed Time : 8:27:56.091056
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.63802	AUC Test : 0.55167	Elapsed Time : 8:39:03.954720
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.93306	AUC Test : 0.73951	Elapsed Time : 8:50:18.573875
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.72319	AUC Test : 0.69229	Elapsed Time : 9:01:26.585458
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.93535	AUC Test : 0.95252	Elapsed Time : 9:12:40.280052
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.7173	AUC Test : 0.58576	Elapsed Time : 9:23:49.459114
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.83494	AUC Test : 0.80238	Elapsed Time : 9:35:03.310970
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.56612	AUC Test : 0.55207	Elapsed Time : 9:46:12.773950
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.76515	AUC Test : 0.59461	Elapsed Time : 9:57:26.045132
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.56828	AUC Test : 0.50678	Elapsed Time : 10:08:35.884952
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.94104	AUC Test : 0.9133	Elapsed Time : 10:19:49.516388
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.65926	AUC Test : 0.58074	Elapsed Time : 10:30:59.116371
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.94429	AUC Test : 0.95167	Elapsed Time : 10:42:13.378893
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.72928	AUC Test : 0.6439	Elapsed Time : 10:53:22.446056
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.9522	AUC Test : 0.95984	Elapsed Time : 11:04:37.838532
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.81119	AUC Test : 0.73381	Elapsed Time : 11:15:45.288038
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.95078	AUC Test : 0.96275	Elapsed Time : 11:27:00.101942
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.86799	AUC Test : 0.82808	Elapsed Time : 11:38:07.191325
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.87114	AUC Test : 0.82817	Elapsed Time : 11:49:21.777956
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.58539	AUC Test : 0.54004	Elapsed Time : 12:00:29.042350
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.88501	AUC Test : 0.89453	Elapsed Time : 12:11:44.094705
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.57632	AUC Test : 0.5583	Elapsed Time : 12:22:52.147926
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.94933	AUC Test : 0.9513	Elapsed Time : 12:34:07.012454
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.76128	AUC Test : 0.76082	Elapsed Time : 12:45:21.716600
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.94808	AUC Test : 0.91187	Elapsed Time : 12:56:47.886971
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.81448	AUC Test : 0.59195	Elapsed Time : 13:08:10.919443
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.95521	AUC Test : 0.94243	Elapsed Time : 13:19:39.586541
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.90443	AUC Test : 0.76872	Elapsed Time : 13:31:04.058906
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.95477	AUC Test : 0.94661	Elapsed Time : 13:42:32.668881
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.89397	AUC Test : 0.84744	Elapsed Time : 13:53:57.566380
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.71227	AUC Test : 0.61555	Elapsed Time : 14:05:37.567671
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.53993	AUC Test : 0.48817	Elapsed Time : 14:17:10.972265
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.73758	AUC Test : 0.64709	Elapsed Time : 14:28:51.362899
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.5409	AUC Test : 0.51386	Elapsed Time : 14:40:24.195407
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.94209	AUC Test : 0.92689	Elapsed Time : 14:52:05.454193
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.61517	AUC Test : 0.5577	Elapsed Time : 15:03:37.706944
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.94755	AUC Test : 0.91347	Elapsed Time : 15:15:20.095689
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.59122	AUC Test : 0.51209	Elapsed Time : 15:26:51.571960
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.96169	AUC Test : 0.9474	Elapsed Time : 15:38:32.200294
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.69698	AUC Test : 0.64674	Elapsed Time : 15:50:03.959297
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.96134	AUC Test : 0.90523	Elapsed Time : 16:01:46.118657
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.73072	AUC Test : 0.64368	Elapsed Time : 16:13:18.345659
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.81758	AUC Test : 0.75808	Elapsed Time : 16:24:58.899845
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.57014	AUC Test : 0.5123	Elapsed Time : 16:36:31.480956
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.80516	AUC Test : 0.82634	Elapsed Time : 16:48:10.522298
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.56497	AUC Test : 0.50747	Elapsed Time : 16:59:44.496573
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.95603	AUC Test : 0.93778	Elapsed Time : 17:11:23.228724
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.80588	AUC Test : 0.82911	Elapsed Time : 17:22:57.462331
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.9601	AUC Test : 0.93083	Elapsed Time : 17:34:36.454810
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.82214	AUC Test : 0.55861	Elapsed Time : 17:46:11.240396
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.96346	AUC Test : 0.94764	Elapsed Time : 17:57:49.883347
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.89434	AUC Test : 0.81595	Elapsed Time : 18:09:24.334326
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.96556	AUC Test : 0.94647	Elapsed Time : 18:21:03.503262
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.85401	AUC Test : 0.90965	Elapsed Time : 18:32:36.385432
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.93109	AUC Test : 0.86113	Elapsed Time : 18:44:17.141171
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.5856	AUC Test : 0.61259	Elapsed Time : 18:55:48.472788
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.928	AUC Test : 0.93138	Elapsed Time : 19:07:21.047379
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.59231	AUC Test : 0.51904	Elapsed Time : 19:18:34.778778
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.96244	AUC Test : 0.93865	Elapsed Time : 19:29:56.984472
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.8671	AUC Test : 0.67268	Elapsed Time : 19:41:06.741953
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.96261	AUC Test : 0.94354	Elapsed Time : 19:52:27.107603
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.81302	AUC Test : 0.82914	Elapsed Time : 20:03:34.368985
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.96858	AUC Test : 0.95372	Elapsed Time : 20:14:53.840716
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.92907	AUC Test : 0.8609	Elapsed Time : 20:26:02.235735
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.96982	AUC Test : 0.95559	Elapsed Time : 20:37:21.483329
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.93028	AUC Test : 0.64949	Elapsed Time : 20:48:29.665491
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.68384	AUC Test : 0.60018	Elapsed Time : 20:59:23.145250
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.52582	AUC Test : 0.53424	Elapsed Time : 21:10:12.055768
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.63397	AUC Test : 0.5821	Elapsed Time : 21:21:05.566736
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.52444	AUC Test : 0.52051	Elapsed Time : 21:31:55.404828
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.90162	AUC Test : 0.93548	Elapsed Time : 21:42:48.657837
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.61538	AUC Test : 0.58803	Elapsed Time : 21:53:37.664798
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.8926	AUC Test : 0.88202	Elapsed Time : 22:04:30.092506
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.59027	AUC Test : 0.56514	Elapsed Time : 22:15:18.557612
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.93404	AUC Test : 0.76701	Elapsed Time : 22:26:13.337241
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.66634	AUC Test : 0.63865	Elapsed Time : 22:37:01.041596
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.9296	AUC Test : 0.87331	Elapsed Time : 22:47:55.745986
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.72093	AUC Test : 0.61111	Elapsed Time : 22:58:44.193974
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.78861	AUC Test : 0.7015	Elapsed Time : 23:09:38.989629
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.54617	AUC Test : 0.53325	Elapsed Time : 23:20:26.958801
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.82708	AUC Test : 0.66268	Elapsed Time : 23:31:22.225647
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.55886	AUC Test : 0.50108	Elapsed Time : 23:42:10.378370
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.94175	AUC Test : 0.92626	Elapsed Time : 23:53:05.031819
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.72875	AUC Test : 0.63869	Elapsed Time : 1 day, 0:03:52.895995
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.94577	AUC Test : 0.9222	Elapsed Time : 1 day, 0:14:47.234161
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.74635	AUC Test : 0.59034	Elapsed Time : 1 day, 0:25:35.898870
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.94622	AUC Test : 0.95402	Elapsed Time : 1 day, 0:36:30.304568
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.84538	AUC Test : 0.5887	Elapsed Time : 1 day, 0:47:17.914370
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.94931	AUC Test : 0.96882	Elapsed Time : 1 day, 0:57:23.263438
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.84142	AUC Test : 0.85724	Elapsed Time : 1 day, 1:05:55.085716
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.89185	AUC Test : 0.84562	Elapsed Time : 1 day, 1:15:00.391278
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.58889	AUC Test : 0.58414	Elapsed Time : 1 day, 1:24:10.829204
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.9074	AUC Test : 0.85737	Elapsed Time : 1 day, 1:33:33.385201
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.59737	AUC Test : 0.55849	Elapsed Time : 1 day, 1:42:42.521950
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.94783	AUC Test : 0.96614	Elapsed Time : 1 day, 1:51:40.728906
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.81818	AUC Test : 0.62994	Elapsed Time : 1 day, 2:00:32.971866
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.9456	AUC Test : 0.93167	Elapsed Time : 1 day, 2:09:29.324259
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.8375	AUC Test : 0.7176	Elapsed Time : 1 day, 2:18:21.346651
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.95907	AUC Test : 0.95928	Elapsed Time : 1 day, 2:27:19.232058
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.84713	AUC Test : 0.87761	Elapsed Time : 1 day, 2:36:10.563699
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.95559	AUC Test : 0.96218	Elapsed Time : 1 day, 2:45:06.501610
+---------------------------------------------------------------------------------------------------------
+TF : FOXA1_HepG2_FOXA1_(SC-101058)_HudsonAlpha
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.89884	AUC Test : 0.91944	Elapsed Time : 1 day, 2:53:58.713287

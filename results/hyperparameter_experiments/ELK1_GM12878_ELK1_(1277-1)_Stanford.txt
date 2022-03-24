@@ -1,0 +1,576 @@
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.62922	AUC Test : 0.54257	Elapsed Time : 0:09:43.965913
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.53728	AUC Test : 0.50247	Elapsed Time : 0:20:26.525297
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.62014	AUC Test : 0.58327	Elapsed Time : 0:31:25.260257
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.54668	AUC Test : 0.53352	Elapsed Time : 0:42:12.647736
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.85437	AUC Test : 0.91346	Elapsed Time : 0:53:13.901830
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.5865	AUC Test : 0.50729	Elapsed Time : 1:04:03.729485
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.88413	AUC Test : 0.9169	Elapsed Time : 1:15:05.212225
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.62044	AUC Test : 0.55447	Elapsed Time : 1:25:55.719019
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.91927	AUC Test : 0.91701	Elapsed Time : 1:36:56.996346
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.68474	AUC Test : 0.5816	Elapsed Time : 1:47:46.741485
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.91351	AUC Test : 0.91609	Elapsed Time : 1:58:48.631344
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.64731	AUC Test : 0.61191	Elapsed Time : 2:09:38.727861
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.75325	AUC Test : 0.62464	Elapsed Time : 2:20:40.155650
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.53583	AUC Test : 0.48577	Elapsed Time : 2:31:30.745601
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.75159	AUC Test : 0.74244	Elapsed Time : 2:42:31.159090
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.53417	AUC Test : 0.56491	Elapsed Time : 2:53:20.594130
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.9162	AUC Test : 0.90731	Elapsed Time : 3:04:20.149543
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.66292	AUC Test : 0.59948	Elapsed Time : 3:15:09.338036
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.91202	AUC Test : 0.91294	Elapsed Time : 3:26:08.590252
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.63898	AUC Test : 0.65663	Elapsed Time : 3:36:56.783942
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.93054	AUC Test : 0.91167	Elapsed Time : 3:47:56.220390
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.78023	AUC Test : 0.83368	Elapsed Time : 3:58:44.201813
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.9306	AUC Test : 0.91114	Elapsed Time : 4:09:41.242591
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.7641	AUC Test : 0.74546	Elapsed Time : 4:20:28.424787
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.8381	AUC Test : 0.88104	Elapsed Time : 4:31:25.035865
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.5837	AUC Test : 0.55662	Elapsed Time : 4:42:11.624692
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.84095	AUC Test : 0.90276	Elapsed Time : 4:53:07.437259
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.58314	AUC Test : 0.49975	Elapsed Time : 5:03:52.974737
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.93271	AUC Test : 0.90319	Elapsed Time : 5:14:47.212057
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.76797	AUC Test : 0.78851	Elapsed Time : 5:25:33.601261
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.92749	AUC Test : 0.89194	Elapsed Time : 5:36:29.672255
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.73874	AUC Test : 0.63883	Elapsed Time : 5:47:16.066687
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.9429	AUC Test : 0.91713	Elapsed Time : 5:58:10.393864
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.83931	AUC Test : 0.90162	Elapsed Time : 6:08:55.247192
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.93558	AUC Test : 0.89119	Elapsed Time : 6:19:50.011558
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.83699	AUC Test : 0.90862	Elapsed Time : 6:30:36.740411
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.68865	AUC Test : 0.61157	Elapsed Time : 6:40:59.094192
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.52224	AUC Test : 0.52062	Elapsed Time : 6:51:05.363357
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.62638	AUC Test : 0.59696	Elapsed Time : 7:01:15.629566
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.53017	AUC Test : 0.49918	Elapsed Time : 7:11:18.282934
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.79792	AUC Test : 0.67517	Elapsed Time : 7:21:26.824806
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.57974	AUC Test : 0.58315	Elapsed Time : 7:31:26.235281
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.82019	AUC Test : 0.71314	Elapsed Time : 7:41:40.359342
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.57211	AUC Test : 0.57878	Elapsed Time : 7:51:46.044998
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.87355	AUC Test : 0.92628	Elapsed Time : 8:01:59.465537
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.67684	AUC Test : 0.55109	Elapsed Time : 8:12:05.499191
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.86042	AUC Test : 0.8817	Elapsed Time : 8:22:19.745476
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.64893	AUC Test : 0.61195	Elapsed Time : 8:32:26.326822
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.71442	AUC Test : 0.72978	Elapsed Time : 8:42:39.300910
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.56024	AUC Test : 0.56841	Elapsed Time : 8:52:46.221040
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.73832	AUC Test : 0.72071	Elapsed Time : 9:02:58.762363
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.55478	AUC Test : 0.50947	Elapsed Time : 9:13:06.689560
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.88094	AUC Test : 0.92603	Elapsed Time : 9:23:19.292888
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.63851	AUC Test : 0.54092	Elapsed Time : 9:33:27.188421
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.86985	AUC Test : 0.91716	Elapsed Time : 9:43:39.450996
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.69336	AUC Test : 0.69864	Elapsed Time : 9:53:46.534455
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.88709	AUC Test : 0.94332	Elapsed Time : 10:03:59.191170
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.75588	AUC Test : 0.6322	Elapsed Time : 10:14:06.642850
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.89086	AUC Test : 0.91759	Elapsed Time : 10:24:19.869555
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.75266	AUC Test : 0.75324	Elapsed Time : 10:34:26.417211
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.81371	AUC Test : 0.84747	Elapsed Time : 10:44:39.933991
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.59063	AUC Test : 0.61018	Elapsed Time : 10:54:46.742067
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.8139	AUC Test : 0.77166	Elapsed Time : 11:05:00.473989
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.59072	AUC Test : 0.55892	Elapsed Time : 11:15:08.066414
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.89794	AUC Test : 0.92772	Elapsed Time : 11:25:21.308424
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.71365	AUC Test : 0.55909	Elapsed Time : 11:35:27.672198
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.89845	AUC Test : 0.92168	Elapsed Time : 11:45:40.489938
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.70087	AUC Test : 0.69181	Elapsed Time : 11:55:48.294345
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.91564	AUC Test : 0.92204	Elapsed Time : 12:06:01.132609
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.82839	AUC Test : 0.8541	Elapsed Time : 12:16:08.995028
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.90579	AUC Test : 0.90304	Elapsed Time : 12:26:21.230663
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : maxavg, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.82158	AUC Test : 0.77209	Elapsed Time : 12:36:28.717501
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.64829	AUC Test : 0.60132	Elapsed Time : 12:46:58.944077
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.55063	AUC Test : 0.51114	Elapsed Time : 12:57:26.711134
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.67562	AUC Test : 0.64186	Elapsed Time : 13:08:00.773423
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.53183	AUC Test : 0.50699	Elapsed Time : 13:18:30.596347
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.87569	AUC Test : 0.89824	Elapsed Time : 13:29:05.791791
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.58357	AUC Test : 0.57663	Elapsed Time : 13:39:34.318381
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.86998	AUC Test : 0.85512	Elapsed Time : 13:50:10.428536
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.57149	AUC Test : 0.57305	Elapsed Time : 14:00:40.724418
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.91093	AUC Test : 0.89999	Elapsed Time : 14:11:19.139615
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.68418	AUC Test : 0.57494	Elapsed Time : 14:21:49.226781
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.91245	AUC Test : 0.90203	Elapsed Time : 14:32:27.842352
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.65544	AUC Test : 0.59361	Elapsed Time : 14:42:57.079374
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.7283	AUC Test : 0.6579	Elapsed Time : 14:53:36.008488
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.55465	AUC Test : 0.54398	Elapsed Time : 15:04:05.711144
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.77028	AUC Test : 0.76078	Elapsed Time : 15:14:44.245043
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.55596	AUC Test : 0.51496	Elapsed Time : 15:25:12.917440
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.91765	AUC Test : 0.90133	Elapsed Time : 15:35:51.136105
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.69115	AUC Test : 0.69776	Elapsed Time : 15:46:21.455382
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.9166	AUC Test : 0.89814	Elapsed Time : 15:56:59.095121
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.66788	AUC Test : 0.61303	Elapsed Time : 16:07:30.336556
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.92811	AUC Test : 0.89292	Elapsed Time : 16:18:08.590319
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.79372	AUC Test : 0.71936	Elapsed Time : 16:28:39.468372
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.93638	AUC Test : 0.90767	Elapsed Time : 16:39:16.915020
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.8271	AUC Test : 0.67248	Elapsed Time : 16:49:47.739918
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.81577	AUC Test : 0.86046	Elapsed Time : 17:00:24.838901
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.57424	AUC Test : 0.57745	Elapsed Time : 17:10:55.521668
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.84091	AUC Test : 0.85932	Elapsed Time : 17:21:33.118363
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.58479	AUC Test : 0.61994	Elapsed Time : 17:32:04.077963
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.93759	AUC Test : 0.907	Elapsed Time : 17:42:42.376904
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.73253	AUC Test : 0.71213	Elapsed Time : 17:53:12.652430
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.9364	AUC Test : 0.89618	Elapsed Time : 18:03:49.920728
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.73482	AUC Test : 0.66918	Elapsed Time : 18:14:20.057239
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.94193	AUC Test : 0.91418	Elapsed Time : 18:24:57.610909
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.85093	AUC Test : 0.9002	Elapsed Time : 18:35:27.039732
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.9427	AUC Test : 0.90892	Elapsed Time : 18:46:05.799412
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : True, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.81218	AUC Test : 0.77864	Elapsed Time : 18:56:35.691600
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.63414	AUC Test : 0.59771	Elapsed Time : 19:06:50.808501
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.51815	AUC Test : 0.51436	Elapsed Time : 19:16:48.782535
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.65516	AUC Test : 0.64949	Elapsed Time : 19:26:50.067471
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.55225	AUC Test : 0.53517	Elapsed Time : 19:36:44.141139
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.82903	AUC Test : 0.69619	Elapsed Time : 19:46:42.653534
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.58526	AUC Test : 0.53377	Elapsed Time : 19:56:34.785696
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.84606	AUC Test : 0.90997	Elapsed Time : 20:06:31.578370
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.58177	AUC Test : 0.48803	Elapsed Time : 20:16:24.262532
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.85919	AUC Test : 0.83872	Elapsed Time : 20:26:20.399209
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.65076	AUC Test : 0.60114	Elapsed Time : 20:36:12.824711
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.86227	AUC Test : 0.8488	Elapsed Time : 20:46:08.823911
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.2, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.63883	AUC Test : 0.57669	Elapsed Time : 20:55:59.103414
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.73284	AUC Test : 0.6593	Elapsed Time : 21:05:52.846176
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.55701	AUC Test : 0.53577	Elapsed Time : 21:15:42.265896
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.78236	AUC Test : 0.63555	Elapsed Time : 21:25:35.978523
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.54138	AUC Test : 0.49745	Elapsed Time : 21:35:25.536008
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.87817	AUC Test : 0.92181	Elapsed Time : 21:45:18.398031
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.65512	AUC Test : 0.612	Elapsed Time : 21:55:06.719418
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.87342	AUC Test : 0.91377	Elapsed Time : 22:05:00.250491
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.70744	AUC Test : 0.76687	Elapsed Time : 22:14:49.252392
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.89065	AUC Test : 0.93039	Elapsed Time : 22:24:42.694209
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.7416	AUC Test : 0.74405	Elapsed Time : 22:34:31.555851
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.89241	AUC Test : 0.93724	Elapsed Time : 22:44:24.851786
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.3, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.71655	AUC Test : 0.71544	Elapsed Time : 22:54:14.362480
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : SGD
+AUC Train : 0.7889	AUC Test : 0.85388	Elapsed Time : 23:04:08.141459
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : True, optimizer : Adam
+AUC Train : 0.58243	AUC Test : 0.5361	Elapsed Time : 23:13:58.136968
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : SGD
+AUC Train : 0.82616	AUC Test : 0.851	Elapsed Time : 23:23:51.777882
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.001, scheduler : False, optimizer : Adam
+AUC Train : 0.57025	AUC Test : 0.57897	Elapsed Time : 23:33:41.444716
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : SGD
+AUC Train : 0.89017	AUC Test : 0.933	Elapsed Time : 23:43:34.592027
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : True, optimizer : Adam
+AUC Train : 0.73386	AUC Test : 0.53899	Elapsed Time : 23:53:24.559600
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : SGD
+AUC Train : 0.88898	AUC Test : 0.92966	Elapsed Time : 1 day, 0:03:16.706469
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.005, scheduler : False, optimizer : Adam
+AUC Train : 0.73856	AUC Test : 0.66808	Elapsed Time : 1 day, 0:13:06.508789
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : SGD
+AUC Train : 0.90703	AUC Test : 0.92857	Elapsed Time : 1 day, 0:22:59.673601
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : True, optimizer : Adam
+AUC Train : 0.82432	AUC Test : 0.91129	Elapsed Time : 1 day, 0:32:49.297345
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : SGD
+AUC Train : 0.91856	AUC Test : 0.92934	Elapsed Time : 1 day, 0:42:42.744159
+---------------------------------------------------------------------------------------------------------
+TF : ELK1_GM12878_ELK1_(1277-1)_Stanford
+pool : max, hidden layer : False, dropout rate : 0.4, lr : 0.01, scheduler : False, optimizer : Adam
+AUC Train : 0.81015	AUC Test : 0.83602	Elapsed Time : 1 day, 0:52:32.216793

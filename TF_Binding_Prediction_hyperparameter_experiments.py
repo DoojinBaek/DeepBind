@@ -153,7 +153,9 @@ def main():
             learning_steps=0
 
             while learning_steps<=20000:
+            # while -> for : ls -> epoch
                 for idx, (data, target) in enumerate(train_loader):
+                    # idx -> ceiling(#data/batch)
                     data = data.to(device)
                     target = target.to(device)
                     if model.reverse_complemet_mode:
@@ -174,6 +176,7 @@ def main():
                     loss.backward()
                     optimizer.step()
                     learning_steps+=1
+                    #
                 scheduler.step()
                     
             with torch.no_grad():
