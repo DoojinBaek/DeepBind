@@ -1,7 +1,9 @@
 import time
 import datetime
 import argparse
-    
+
+# Not yet supported
+
 def arg_parser():
     parser = argparse.ArgumentParser(description='Set hyperparameters')
     # parser = argparse.ArgumentParser(description='Set hyperparameters or you can use default hyperparameter settings defined in the hyperparameter.json file') 실험 다 끝난뒤 best hyperparameters 모아서 hyperparameter.json에 저장

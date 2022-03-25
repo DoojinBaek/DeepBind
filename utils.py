@@ -111,15 +111,14 @@ class Chip():
 
         size=int(len(train_dataset)/3)
 
-        valid1 = train_dataset[:size]
-        valid2 = train_dataset[size:2*size]
-        valid3 = train_dataset[2*size:]
+        random.seed(1127)
+        random.shuffle(train_dataset)
 
-        train1 = valid2 + valid3
-        train2 = valid1 + valid3
-        train3 = valid1 + valid2
+        valid = train_dataset[:size]
 
-        return train1, valid1, train2, valid2, train3, valid3, train_dataset
+        net_train = train_dataset[size:]
+
+        return net_train, valid, train_dataset
 
 class chipseq_dataset(Dataset):
     def __init__(self,xy=None):
@@ -139,40 +138,24 @@ def dataset_loader(path, batch_size = 64, reverse_mode = False):
 
     chipseq=Chip(path)
 
-    train1, valid1, train2, valid2, train3, valid3, all=chipseq.openFile()
+    train, valid,  all=chipseq.openFile()
 
-    train1_dataset=chipseq_dataset(train1)
-    train2_dataset=chipseq_dataset(train2)
-    train3_dataset=chipseq_dataset(train3)
-    valid1_dataset=chipseq_dataset(valid1)
-    valid2_dataset=chipseq_dataset(valid2)
-    valid3_dataset=chipseq_dataset(valid3)
+    train_dataset=chipseq_dataset(train)
+    valid_dataset=chipseq_dataset(valid)
     all_dataset=chipseq_dataset(all)
 
     batchSize=batch_size
 
     if reverse_mode:
-        train_loader1 = DataLoader(dataset=train1_dataset,batch_size=batchSize,shuffle=False)
-        train_loader2 = DataLoader(dataset=train2_dataset,batch_size=batchSize,shuffle=False)
-        train_loader3 = DataLoader(dataset=train3_dataset,batch_size=batchSize,shuffle=False)
-        valid_loader1 = DataLoader(dataset=valid1_dataset,batch_size=batchSize,shuffle=False)
-        valid_loader2 = DataLoader(dataset=valid2_dataset,batch_size=batchSize,shuffle=False)
-        valid_loader3 = DataLoader(dataset=valid3_dataset,batch_size=batchSize,shuffle=False)
+        train_loader = DataLoader(dataset=train_dataset,batch_size=batchSize,shuffle=False)
+        valid_loader = DataLoader(dataset=valid_dataset,batch_size=batchSize,shuffle=False)
         all_loader=DataLoader(dataset=all_dataset,batch_size=batchSize,shuffle=False)
     else:
-        train_loader1 = DataLoader(dataset=train1_dataset,batch_size=batchSize,shuffle=True)
-        train_loader2 = DataLoader(dataset=train2_dataset,batch_size=batchSize,shuffle=True)
-        train_loader3 = DataLoader(dataset=train3_dataset,batch_size=batchSize,shuffle=True)
-        valid_loader1 = DataLoader(dataset=valid1_dataset,batch_size=batchSize,shuffle=False)
-        valid_loader2 = DataLoader(dataset=valid2_dataset,batch_size=batchSize,shuffle=False)
-        valid_loader3 = DataLoader(dataset=valid3_dataset,batch_size=batchSize,shuffle=False)
+        train_loader = DataLoader(dataset=train_dataset,batch_size=batchSize,shuffle=True)
+        valid_loader = DataLoader(dataset=valid_dataset,batch_size=batchSize,shuffle=False)
         all_loader=DataLoader(dataset=all_dataset,batch_size=batchSize,shuffle=False)
-    
-    train_dataloader = [train_loader1,train_loader2,train_loader3]
-    valid_dataloader = [valid_loader1,valid_loader2,valid_loader3]
-    all_dataloader = all_loader
 
-    return train_dataloader, valid_dataloader, all_dataloader
+    return train_loader, valid_loader, all_loader
 
 class Chip_test():
     def __init__(self,filename,motif_len,reverse_complemet_mode=False):
