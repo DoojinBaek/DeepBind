@@ -18,16 +18,25 @@ https://github.com/jisraeli/DeepBind/tree/master/data/
 
 # How to run the code
 
-1. TF_Binding_Predcition.ipynb<br>
+1. ~~TF_Binding_Predcition.ipynb~~<br>
+*no longer supported
 
-2. TF_Binding_Prediction.py<br>
+2. ~~TF_Binding_Prediction.py<br>
 This code is the same as ipynb format file, but you can experiment multiple datasets using the following commands<br>
 `python TF_Binding_Prdiction.py --TF ARID3A`<br>
 You can choose datasets among <br>
-[ARID3A / CTCFL / ELK1 / FOXA1 / GABPA / MYC / REST / SP1 / USF1 / ZBTB7A]
+[ARID3A / CTCFL / ELK1 / FOXA1 / GABPA / MYC / REST / SP1 / USF1 / ZBTB7A]~~
+*no longer supported
 
 3. Logo/seq_logo_from_model.ipynb
 using this code, you can create sequence logos for specific TF model you trained
+
+4. TF_Binding_Prediction_hyperparameter_experiments.py<br>
+This code is designed for hyperparameter tuning experiments.<br>
+You can execute this code using the command shwon below<br>
+`python TF_Binding_Prediction_hyperparameter_experiments.py 
+–-TF {TF Name} –-id {experiments id}`<br>
+
 
 # TF Binding Prediction AUC Results
 
