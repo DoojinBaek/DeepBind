@@ -22,6 +22,7 @@ dependencies:
   - debugpy=1.5.1
   - decorator=5.1.1
   - entrypoints=0.4
+  - et_xmlfile=1.1.0
   - executing=0.8.3
   - expat=2.4.4
   - ffmpeg=4.3
@@ -82,7 +83,8 @@ dependencies:
   - numpy=1.21.2
   - numpy-base=1.21.2
   - openh264=2.1.1
-  - openssl=1.1.1m
+  - openpyxl=3.0.9
+  - openssl=1.1.1n
   - packaging=21.3
   - pandas=1.4.1
   - parso=0.8.3
